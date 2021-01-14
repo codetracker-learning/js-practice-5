@@ -14,10 +14,11 @@
 $ cd workspace/foundations/exercises
 ```
 
-2. Clone this repo to your local
+2. Clone this repo to your local and move into it
 
 ```
 $ git clone [LINK_TO_THIS_REPO]
+$ cd YOUR-REPO-NAME
 ```
 
 3. Install packages
