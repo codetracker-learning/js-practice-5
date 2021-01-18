@@ -18,13 +18,13 @@ $ cd workspace/foundations/exercises
 
 ```
 $ git clone [LINK_TO_THIS_REPO]
-$ cd YOUR-REPO-NAME
+$ cd {YOUR-REPO-NAME}
 ```
 
 3. Install packages
 
 ```
-$ npm install
+$ sudo npm install
 ```
 4. Create a new branch
 
