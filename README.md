@@ -42,10 +42,10 @@ $ npm test main.test.js
 ```
 
 #### Failing tests will have red in the final output
-![failing](https://github.com/dr-teresa-vasquez/js-challenge-1/blob/master/images/failing-tests.png)
+![failing](./images/failing-tests.png)
 
 #### All passing tests will be green. This means you are completed with this exercise.
-![passing](https://github.com/dr-teresa-vasquez/js-challenge-1/blob/master/images/passing-tests.png)
+![passing](./images/passing-tests.png)
 
 ## To Submit Your Challenge
 
