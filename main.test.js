@@ -1,20 +1,43 @@
 /* eslint-disable no-undef */
-const { nFactorial, nFibonacci } = require("./main");
+const {
+  invokeCallback,
+  sumArray,
+  forEach,
+  map,
+} = require('./main');
 
-describe("nFactorial(n)", function () {
-  it("should return the factorial of n", function () {
-    expect(nFactorial(5)).toBe(120);
-    expect(nFactorial(15)).toBe(1307674368000);
+describe('invokeCallback(cb)', function() {
+  it('should invoke the callback that is passed in', function() {
+		const cb = jest.fn();
+		invokeCallback(cb);
+    expect(cb).toHaveBeenCalled();
   });
 });
 
-describe("nFibonacci(n)", function () {
-  it("should return the nth fibonacci number", () => {
-    const fib1 = nFibonacci(5);
-    const fib2 = nFibonacci(3);
-    const fib3 = nFibonacci(1);
-    expect(fib1).toBe(8);
-    expect(fib2).toBe(3);
-    expect(fib3).toBe(1);
-  });
+describe('sumArray(cb)', function() {
+	it('should pass the sum of all array numbers to cb', function(done) {
+		sumArray([1, 2, 3, 4, 5], function(sum) {
+			expect(sum).toBe(15);
+			done();
+		});
+	});
+});
+
+describe('forEach(arr, cb)', function() {
+	it('should pass all array items one by one to cb', function() {
+		const nums = [];
+		forEach([1, 2, 3, 4, 5], function(num) {
+			nums.push(num);
+		});
+		expect(nums).toEqual([1, 2, 3, 4, 5]);
+	});
+});
+
+describe('map(arr, cb)', function() {
+	it('should return an array of all the processed array elements', function() {
+		const squares = map([1, 2, 3, 4, 5], function(num) {
+			return num * num;
+		});
+		expect(squares).toEqual([1, 4, 9, 16, 25]);
+	});
 });
