@@ -1,38 +1,14 @@
 # Code Challenge - Javascript 5
 
 - Over the next few weeks, we will be testing your knowledge on several code concpets to ensure that you understand them.
-- These assessments are meant to give you coding practice and to ensure that you follow directions and understand them.
+- These assessments are meant to give you coding practice
 - We are here to help you get through them if needed.
 - [Instructions](#instructions-to-use)
 - [Submit your Challenge](#to-submit-your-challenge)
 
 ## Instructions to use
 
-1. Navigate to the directory that you will clone the repo
-
-```
-$ cd workspace/foundations/exercises
-```
-
-2. Clone this repo to your local and move into it
-
-```
-$ git clone [LINK_TO_THIS_REPO]
-$ cd {YOUR-REPO-NAME}
-```
-
-3. Install packages
-
-```
-$ sudo npm install
-```
-4. Create a new branch
-
-```
-$ git checkout -b YOUR-BRANCH-NAME
-```
-
-5. Start Coding - Open the `main.js` file and add your code in the file.
+Start Coding - Open the `main.js` file and add your code in the file.
 
 ## To Test Your Changes
 After you make the changes to the challenges, you can run a test to see if your answers are correct. You can run this as many times as needed until all the tests pass.
