@@ -4,7 +4,6 @@
 - These assessments are meant to give you coding practice
 - We are here to help you get through them if needed.
 - [Instructions](#instructions-to-use)
-- [Submit your Challenge](#to-submit-your-challenge)
 
 ## Instructions to use
 
@@ -22,13 +21,6 @@ $ npm test main.test.js
 
 #### All passing tests will be green. This means you are completed with this exercise.
 ![passing](./images/passing-tests.png)
-
-## To Submit Your Challenge
-
-- After you have made all the code changes and run the tests locally and they all pass, add, commit and push the branch up to GitHub
-- Create a PR against the main branch
-- Check to make sure the tests are passing in github by looking either on the Checks tab of the pull request, or right above the Merge Pull Request button.
-- If they do pass, merge the PR into master and copy the link to the repo to submit the Assignments card in CodeTracker.
 
 ## Don't Forget!
 
